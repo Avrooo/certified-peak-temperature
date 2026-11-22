@@ -1,0 +1,3 @@
+# Numerical verification: scope
+Included: exact-rational and 120-digit comparisons of the interval kernel, validated root brackets, mutation tests, a numerical audit of the Lemma 4.1 inequalities, a consistency check of the proof chain in double precision (with the six double-precision TP2 violations re-evaluated in 70-digit arithmetic), a finite-volume cross-check, and edge-case and reduced-precision tests.
+Not included: an Arb/FLINT cross-check of the kernel, a validated PDE integrator as a baseline, and any machine-checked proof. These checks are by the author and do not replace independent mathematical review.

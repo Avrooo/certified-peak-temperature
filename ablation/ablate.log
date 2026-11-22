@@ -1,0 +1,8 @@
+end time only, corners                             dis=  388 unsafe=  362 | gap>=1e-14: 283/1266 | 11.92 ms
+uniform grid 5 pts, corners                        dis=  302 unsafe=  229 | gap>=1e-14: 212/1266 | 11.61 ms
+uniform grid 20 pts, corners                       dis=  228 unsafe=   96 | gap>=1e-14: 154/1266 | 11.79 ms
+uniform grid 50 pts, corners                       dis=  196 unsafe=   63 | gap>=1e-14: 127/1266 | 12.23 ms
+uniform grid 200 pts, corners                      dis=  172 unsafe=   40 | gap>=1e-14: 105/1266 | 14.19 ms
+Theorem 3.5 endpoints, corners (corner rule)       dis=    8 unsafe=    0 | gap>=1e-14: 0/1266 | 0.62 ms
+Theorem 3.5 endpoints, 20 random box samples       dis=  475 unsafe=   82 | gap>=1e-14: 305/1266 | 5.17 ms
+Theorem 3.5 endpoints, 100 random box samples      dis=  453 unsafe=   82 | gap>=1e-14: 283/1266 | 25.51 ms

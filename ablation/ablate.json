@@ -1,0 +1,66 @@
+{
+ "end time only, corners": {
+  "n": 1600,
+  "disagree": 388,
+  "unsafe_called_safe": 362,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 283,
+  "median_ms": 11.917575000005343
+ },
+ "uniform grid 5 pts, corners": {
+  "n": 1600,
+  "disagree": 302,
+  "unsafe_called_safe": 229,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 212,
+  "median_ms": 11.607496999999967
+ },
+ "uniform grid 20 pts, corners": {
+  "n": 1600,
+  "disagree": 228,
+  "unsafe_called_safe": 96,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 154,
+  "median_ms": 11.794692000002271
+ },
+ "uniform grid 50 pts, corners": {
+  "n": 1600,
+  "disagree": 196,
+  "unsafe_called_safe": 63,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 127,
+  "median_ms": 12.22729600000605
+ },
+ "uniform grid 200 pts, corners": {
+  "n": 1600,
+  "disagree": 172,
+  "unsafe_called_safe": 40,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 105,
+  "median_ms": 14.189164000001142
+ },
+ "Theorem 3.5 endpoints, corners (corner rule)": {
+  "n": 1600,
+  "disagree": 8,
+  "unsafe_called_safe": 0,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 0,
+  "median_ms": 0.6240879999914739
+ },
+ "Theorem 3.5 endpoints, 20 random box samples": {
+  "n": 1600,
+  "disagree": 475,
+  "unsafe_called_safe": 82,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 305,
+  "median_ms": 5.168738000008943
+ },
+ "Theorem 3.5 endpoints, 100 random box samples": {
+  "n": 1600,
+  "disagree": 453,
+  "unsafe_called_safe": 82,
+  "n_gap_ge_1e14": 1266,
+  "disagree_gap_ge_1e14": 283,
+  "median_ms": 25.50761149998948
+ }
+}

@@ -1,0 +1,1 @@
+Tables 5 and 9 are recomputed from the archived per-case results by `make_tables.py`. The other numerical tables are produced by the scripts named in `../REPRODUCIBILITY.md` and written to `output/` by `scripts/reproduce_results.py`.

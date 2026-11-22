@@ -1,0 +1,9 @@
+E1  cases: 400  B1>B2: 204
+   end-only underestimates peak by >0.01: 36.8%
+   end-only underestimates peak by >0.0001: 41.5%
+   end-only underestimates peak by >1e-06: 41.5%
+   max theorem-aware minus dense-history (should be >=0 or ~0): 0.0
+E2  margin 0.01: false-'safe-for-all' declarations out of 299: {'M1 nominal end-only': 266, 'M2 nominal peak': 245, 'M3 20 random samples': 21, 'M3b 200 random samples': 0, 'M4 corner rule': 0}
+E2  margin 0.0001: false-'safe-for-all' declarations out of 300: {'M1 nominal end-only': 300, 'M2 nominal peak': 300, 'M3 20 random samples': 292, 'M3b 200 random samples': 235, 'M4 corner rule': 0}
+E2  margin 1e-06: false-'safe-for-all' declarations out of 300: {'M1 nominal end-only': 300, 'M2 nominal peak': 300, 'M3 20 random samples': 300, 'M3b 200 random samples': 298, 'M4 corner rule': 0}
+timing per box decision: corner rule (2 corners x 2 times)= 1.29 ms ; one corner with full 200-point history = 100.0 ms

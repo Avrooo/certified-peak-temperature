@@ -1,0 +1,2 @@
+cases 1500 violations {'G1': 0, 'G2': 0, 'G3a': 0, 'G3b': 0, 'S': 0, 'offA': 0, 'diag': 0, 'RB': 0, 'total': 0}
+max ratio (actual/bound; <=1 is valid) {'G1': 0.0, 'G2': 0.8408, 'G3a': 0.9983, 'G3b': 0.499, 'S': 1.0, 'offA': 0.1693, 'diag': 0.3534, 'RB': 0.1755, 'total': 0.3527}

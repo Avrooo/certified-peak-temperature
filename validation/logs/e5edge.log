@@ -1,0 +1,20 @@
+(A) zero-mode cases (B=0 at a corner): 108 | wrong V7: 0 | V7 differs from frozen: 0
+(B) arithmetic-failure / degenerate inputs (frozen | V7 | V7+fallback):
+   tau=0 (Fs==Fp)       frozen=ERR:ZeroDivisionError V7=ERR:ZeroDivisionError V7fails=0 fallback_used=False -> ERR:ZeroDivisionError
+   Fs=0 invalid         frozen=ERR:ZeroDivisionError V7=ERR:ZeroDivisionError V7fails=0 fallback_used=False -> ERR:ZeroDivisionError
+   Fp<Fs invalid        frozen=ERR:ValueError V7=ERR:ValueError V7fails=0 fallback_used=False -> ERR:ValueError
+   huge B 1e9           frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+   tiny B 1e-12         frozen=SAFE_ALL      V7=SAFE_ALL      V7fails=0 fallback_used=False -> SAFE_ALL
+   B1=B2=0              frozen=SAFE_ALL      V7=SAFE_ALL      V7fails=0 fallback_used=False -> SAFE_ALL
+   B1=0,B2>0            frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+   B2=0,B1>0            frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+   L=0                  frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+   L=1                  frozen=SAFE_ALL      V7=SAFE_ALL      V7fails=0 fallback_used=False -> SAFE_ALL
+   long pulse Fp=1e3    frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+   point box B1=B2      frozen=EXCEEDS_ALL   V7=EXCEEDS_ALL   V7fails=0 fallback_used=False -> EXCEEDS_ALL
+(C) precision exhaustion on 240 cases (separation >=1e-14):
+   P= 40 bits (K=N=10): correct 199 wrong 0 inconclusive  11 errors 30 | fallback(256) after failure -> correct 30
+   P= 56 bits (K=N=14): correct 240 wrong 0 inconclusive   0 errors 0 | fallback(256) after failure -> correct 0
+   P= 64 bits (K=N=16): correct 240 wrong 0 inconclusive   0 errors 0 | fallback(256) after failure -> correct 0
+   P= 80 bits (K=N=20): correct 240 wrong 0 inconclusive   0 errors 0 | fallback(256) after failure -> correct 0
+   P= 96 bits (K=N=24): correct 240 wrong 0 inconclusive   0 errors 0 | fallback(256) after failure -> correct 0

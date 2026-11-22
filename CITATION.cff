@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the paper and the archived release."
+title: "Certified peak-temperature computation for a heat equation with switching Robin boundary conditions: code and data"
+authors:
+  - family-names: Avro
+    given-names: Sakib Shahrear
+    affiliation: "Department of Aerospace and Mechanical Engineering, The University of Texas at El Paso"
+    email: ssavro@miners.utep.edu
+license: MIT
+repository-code: "[GitHub URL to be inserted]"
+doi: "[Zenodo DOI to be inserted at release]"
+preferred-citation:
+  type: article
+  title: "Structure-Exploiting Certified Peak-Temperature Computation for a Heat Equation with Switching Robin Boundary Conditions"
+  authors:
+    - family-names: Avro
+      given-names: Sakib Shahrear
+  status: preprint
